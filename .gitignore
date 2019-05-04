@@ -1,0 +1,8 @@
+#
+*.lock
+*-lock.json
+
+# dependencies
+/_x
+/node_modules
+/public/node_modules
