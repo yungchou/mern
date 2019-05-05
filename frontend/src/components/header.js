@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-	state = {
-		keywords: 'Hello'
-	};
 
 	inputChangeHandler = (event) => {
 		this.setState({
@@ -12,7 +9,6 @@ class Header extends Component {
 	};
 
 	render() {
-		console.log(this.state.keywords);
 		return (
 			<header>
 				<div className='logo'>Logo</div>
