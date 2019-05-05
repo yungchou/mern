@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Component
+import Header from './components/header';
+
 const App = () => {
 	return (
 		<div className='abc'>
-			<h1>Level 1 Heading</h1>
-			<div>
-				<p>Level 2 content</p>
-			</div>
+      <Header/>
 		</div>
 	);
 };
+
 ReactDOM.render(<App />, document.querySelector('#root'));
